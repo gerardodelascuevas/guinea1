@@ -1,0 +1,49 @@
+
+/* FORMATO CARROUSEL */
+ .carousel-item{
+    width: 70%;
+    margin-left: 15%;
+ }
+
+/*FORMATO TITULO PRINCIPAL */
+#tituloPrincipal{
+    text-align: center;
+}
+
+/* FORMULARIO DE CONTACTO  */
+.formulario{
+    display: grid;    
+    background-color: rgb(241, 241, 240);
+}
+.formulario h2{
+    margin-left: 30%;
+}
+.formulario p{
+    font-size: large;
+    margin-left: 22%;
+}
+.input-formulario-contacto{
+    margin-bottom: 0.5rem;
+    max-width: 40%;
+}
+.input-formulario-contacto{
+    border: 2px solid black;
+    margin-left: 30%;
+}
+.input-formulario-area{
+    border: 3px solid black;
+    width: 50%;
+    margin-left: 25%;
+}
+/* FOOTER */
+
+footer {
+    background-color: rgb(172, 172, 236);
+    text-align: right;
+
+}
+footer a {
+    text-decoration: none;
+    font-family: brush script mt;
+    color: green;
+}

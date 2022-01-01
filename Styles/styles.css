@@ -3,8 +3,6 @@
     --naranja: #FA5B14;
     --verde: #2AC03B;
     --cafe: #C4942B;
-    
-
 }
 
 #tituloPrincipal{
@@ -95,6 +93,9 @@ footer a {
     #card__habitaciones{
         display: grid;
         grid-template-columns: repeat(2, 1fr);       
+    }
+    #card__hdoble{
+        margin-top: -20rem;
     }
 }
 @media(min-width: 1200px){

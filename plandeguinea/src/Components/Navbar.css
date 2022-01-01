@@ -1,0 +1,87 @@
+.nav{
+    background-color: gray;
+    max-height: 5rem;
+    max-width: 90%;
+}
+
+.navA{
+    
+}
+
+.Logo{
+    max-width: 6%;
+    height: 4rem;
+  
+}
+
+.bueytamales{
+    max-width: 50%;
+   
+}
+
+.footer{
+    font-family: Edwardian Script ITC;
+    margin-top: 5%;
+    margin-left: 80%;
+    font-size: 1.2rem;
+}
+.linkGCP{
+text-decoration: none;
+}
+.linkGCP:hover{
+    color: orange;
+}
+
+.start{
+    
+    width: 45%;
+    height: 50%;
+   display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   padding-left: 30%;
+   padding-top: 8rem;
+  
+
+    /* background-image: url(./img/foto-aerea-plan-de-guinea.jpg); */
+}
+#grupoguineatitulo{
+   text-align: center;
+   font-family: 'Secular One', sans-serif;;
+}
+.imgstart{
+    width: 20%;
+    height: 20%;
+    margin-left: 23%;
+    
+}
+
+.imgstart:hover{
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+/* transform: scale(1.6) rotate(10deg); */
+}
+
+ .linkletras{
+     padding: 0rem;
+     margin-top: 1rem;
+    text-decoration: solid;
+     color: black;
+     opacity: 0;
+     text-decoration-line: underline ;
+     text-decoration-color: rgb(255, 255, 255);
+     
+ }
+
+ .linkletras:hover{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+ }
+ #container-start{
+   
+    /* background-image: url('./img/logoplan.jpg'); */
+ 
+ }
